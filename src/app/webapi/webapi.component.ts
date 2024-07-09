@@ -36,6 +36,7 @@ export class WebapiComponent implements OnInit {
   getProfile() {
     this.http.get<WeatherForecastResult>(this.weatherForecastEndpoint)
       .subscribe((result) => {
+        console.log(result);
         this.weatherForecast = result;
       });
   }
