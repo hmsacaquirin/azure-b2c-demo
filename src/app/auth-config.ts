@@ -39,9 +39,9 @@ export const msalConfig: Configuration = {
 
 export const protectedResources = {
   api: {
-    endpoint: "https://hugo-api-hello-world.azure-api.net/httptest/test",
+    endpoint: "https://hugo-api-hello-world.azure-api.net/api/person",
     scopes: ["https://test123azurea.onmicrosoft.com/testangular/tasks.read"],
-    failingEndpoint: "https://hugo-api-hello-world.azure-api.net/httptest/test"
+    failingEndpoint: "https://hugo-api-hello-world.azure-api.net/api/person"
   },
 }
 export const loginRequest = {
